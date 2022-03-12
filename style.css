@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -27,8 +28,54 @@ ul {
 
 .logo{
     display: flex;
+    font-size: 24px;
+    color:#f9faf8;
 }
 
 .links{
     display: flex;
+}
+
+.box1{
+    background-color: #1F2937;
+    color: white;
+    padding: 124px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap:24px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 400px;
+    height: 200px;
+}
+
+h1 {
+    margin: 0px;
+    font-weight:900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+p {
+    margin: 0px;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.fin{
+    display: flex;
+    flex-shrink: 0;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    color:#f9faf8;
 }
